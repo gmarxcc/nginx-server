@@ -1,0 +1,516 @@
+/*@charset "utf-8";*/
+
+             
+@font-face { 
+font-family: SoberanaTitular; 
+src: url('http://itcelaya.edu.mx/images/oficial/SoberanaTitularRegular.otf');
+font-weight: normal;
+}
+
+@font-face {
+font-family: SoberanaSans;
+src: url('http://itcelaya.edu.mx/images/oficial/SoberanaSansRegular.otf');  
+font-weight: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #2F2F2F;
+    font-family: "SoberanaSans", "Times New Roman";
+    font-size: 12px;
+}
+
+
+
+
+
+
+.linkblanco{
+    color: white;    
+}
+
+.linkblanco:hover{
+    color: white;    
+}
+
+
+#page{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "SoberanaSans", "Times New Roman";
+    font-size: 12px;  
+    
+}
+
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.minusculas{
+    text-transform: lowercase;
+}
+
+#footer{
+    font-size: 0.8em;
+    text-align: center;
+        color:#FFFFFF;
+}
+
+
+.letra_capital:first-letter{
+    font-size:120%;
+    color: white;
+    padding: 0 3px;
+    -padding: 6px 3px;
+    background: #375703;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.letra_capital2:first-letter{
+    background-color: #232323;
+    color: white;
+    padding: 8px;
+    margin: 0 5px 0 0;
+    font-size: 50px;
+    float: left;
+    height: 37px;
+    line-height: 0.8;
+    font-style: normal;
+}
+
+
+.letra_capital3:first-letter{
+    font-size:120%;
+    color: white;
+    padding: 0 8px;
+    -padding: 6px 3px;
+    background: #375703;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+
+#footerMenu ul{
+    padding:6px 20px 5px 20px;
+    margin:0px;
+        padding: 10px;
+      
+}
+
+#footerMenu ul li{
+    display: inline;
+        border-right: 1px dotted #BF8153;
+        padding: 10px;
+       
+}
+
+#footerMenu ul li a{
+    /*color:#E5E5E5;
+    background-color:transparent;
+        */
+        color: white;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px  8px;
+       
+        
+}
+
+#footerMenu ul li a:hover, #footerMenu ul li.active a{
+    /*color: #EA8509;
+    background-color:#E5E5E5;
+    text-decoration:none;*/
+        color: #B1E526;
+        -webkit-transition-duration: .5s;
+        -moz-transition-duration: .5s;
+        -o-transition-duration: .5s;
+        -ms-transition-duration: .5s;
+        transition-duration: .5s;
+}
+
+#footer h2{
+    color:#FFFFFF;
+}
+
+/* titulos 2013*/
+.titulo_rojo{
+    background: #BA2026;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#a31c21',startColorstr='#cf242a');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#a31c21',startColorstr='#cf242a')";
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CF242A), to(#A31C21));
+    background-image: -moz-linear-gradient(center top, #cf242a, #a31c21);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(207, 36, 42, 0.7)), to(rgba(163, 28, 33, 0.7)));
+    background: -moz-linear-gradient(center top, rgba(207, 36, 42, 0.7), rgba(163, 28, 33, 0.7));
+    border: 1px solid #CF242A;
+    padding: 10px;
+    text-align: center;
+    color:white;
+	
+}
+
+
+
+.titulo_verde{
+    background: #1B603C;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#175233',startColorstr='#207146');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#175233',startColorstr='#207146')";
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#207146), to(#175233));
+    background-image: -moz-linear-gradient(center top, #207146, #175233);
+    border: 1px solid #FFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+    color: #FFF;
+    padding: 10px;
+    text-align: center; 
+}
+
+.titulo_rojo .titulo_inside,
+.titulo_verde .titulo_inside{
+    border: 1px solid #AEADB3;
+    border: 1px solid rgba(229, 238, 236, 0.7);
+    padding: 10px 20px;
+}
+/* titulos 2013 FIN*/
+.hr{
+background: url("http://itcelaya.edu.mx/images/oficial/hr.png") 50% 100% no-repeat;
+padding: 10px;
+border: none;
+}
+
+a.more-link { 
+    background: url("http://itcelaya.edu.mx/images/oficial/sprites.png") no-repeat;
+    color: #ffffff; display: block; font: 11px/29px serif; 
+    height: 35px; text-align: center; text-transform: uppercase; 
+    width: 118px;
+    background-position: -413px -61px;
+    margin-top: 10px;
+    margin-left: 15px; 
+    
+    text-decoration: none;
+}
+a.more-link:hover { background-position: 0 -321px;}
+
+a.more-link-extra { 
+    background: url("http://itcelaya.edu.mx/images/oficial/sprites.png") no-repeat;
+    color: #ffffff; display: block; font: 11px/29px serif; 
+    height: 35px; text-align: center; text-transform: uppercase; 
+    width: 200px;
+    background-position: -853px -61px;
+    margin-top: 10px;
+    margin-left: 15px; 
+    
+    text-decoration: none;
+}
+a.more-link-extra:hover { background-position: -440px -321px;}
+
+/* photo slider */
+.carousel-caption{
+    background: #BA2026;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#a31c21',startColorstr='#cf242a');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,endColorstr='#a31c21',startColorstr='#cf242a')";
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CF242A), to(#A31C21));
+    background-image: -moz-linear-gradient(center top, #cf242a, #a31c21);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(207, 36, 42, 0.7)), to(rgba(163, 28, 33, 0.7)));
+    background: -moz-linear-gradient(center top, rgba(207, 36, 42, 0.7), rgba(163, 28, 33, 0.7));
+    border: 1px solid #CF242A;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    max-width: 300px;
+	height:80px;
+	
+}
+.carousel-caption p{
+    border: 1px solid #E1777B; 
+    border: 1px solid rgba(225, 119, 123, 0.7);
+    padding: 5px 10px;
+    text-align: center;
+    width: 280px;
+	height:65px;
+	display: table-cell; 
+    vertical-align: middle;
+		
+}
+
+.carousel-caption a { 
+    font-family: "SoberanaTitular";
+    font-size:18px;
+    font-weight: normal;
+    color:white;
+   text-transform: uppercase;
+   line-height: 18px;
+
+}
+/* photo slider FIN*/
+
+
+
+.post-time {
+    background: url("http://itcelaya.edu.mx/images/oficial/sprites.png") -321px -61px no-repeat;
+    height: 38px;
+    margin-left: -12px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 70px;
+    z-index: 2;
+	position: absolute;
+}
+.post-time-content{
+    
+    border-left: 1px dotted #BF8153;
+    height: 150px;
+}
+.post-time-image{
+    
+    margin-top:-5px;
+
+}
+
+.servicio-container{
+    margin-top: 15px;
+}
+
+
+#footer .breadcrumb{
+    font-size: 14px;
+    text-align: center;
+    border-bottom: double #AEADB3;
+    border-top: double #AEADB3;
+    color: #AEADB3;
+}
+#footer .breadcrumb a{
+    font-size: 14px;
+    text-align: center;
+    color: #AEADB3;
+}
+
+#footer .footer-contacto h2{
+    font-size: 14px;
+    text-align: center;
+    color: #497F43;
+    line-height: 4px;
+}
+
+#footer .footer-contacto p,
+#footer .footer-contacto a{
+    font-size: 12px;
+    text-align: center;
+    color: #AEADB3;
+    line-height: 4px;
+}
+
+
+
+/*social taps*/
+.social-bts a {
+    background-image: url("http://itcelaya.edu.mx/images/oficial/sprites.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: block;
+    height: 33px;
+    width: 33px;
+    text-indent: -9999px;
+}
+
+.social-bts a.facebook {
+    background-image: url("http://itcelaya.edu.mx/images/oficial/sprites.png");
+    background-repeat: no-repeat;
+    background-position: 0 -171px;
+    display: block;
+    height: 33px;
+    width: 33px;
+    text-indent: -9999px;
+}
+.social-bts  a.facebook:hover { background-position: 0 -214px; }
+
+.social-bts  a.twitter { 
+    background-image: url("http://itcelaya.edu.mx/images/oficial/sprites.png");
+    background-repeat: no-repeat;
+    background-position: -43px -171px; 
+    display: block;
+    height: 33px;
+    width: 33px;
+    text-indent: -9999px;
+}
+.social-bts  a.twitter:hover { background-position: -43px -214px; }
+.social-bts  a.gplus { background-position: -86px -171px; }
+.social-bts  a.gplus:hover { background-position: -86px -214px; }
+
+.social-bts  a.youtube { background-position: -129px -171px; }
+.social-bts  a.youtube:hover { background-position: -129px -214px; }
+
+
+.social-bts  a.flickr { background-position: -172px -171px; }
+.social-bts  a.flickr:hover { background-position: -172px -214px; }
+.social-bts  a.rss { background-position: -215px -171px; }
+.social-bts  a.rss:hover { background-position: -215px -214px; }
+.social-bts  a.instagram { background-position: -235px -257px; }
+.social-bts  a.instagram:hover { background-position: -192px -257px; }
+/*social taps FIN*/
+
+
+
+        .fondo1{
+            background: rgb(99,99,99); /* Old browsers */
+            background: -moz-linear-gradient(top,  rgba(99,99,99,1) 1%, rgba(80,80,80,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(99,99,99,1)), color-stop(100%,rgba(80,80,80,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(99,99,99,1) 1%,rgba(80,80,80,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(99,99,99,1) 1%,rgba(80,80,80,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(99,99,99,1) 1%,rgba(80,80,80,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(99,99,99,1) 1%,rgba(80,80,80,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#636363', endColorstr='#505050',GradientType=0 ); /* IE6-9 */
+        }
+        
+  
+        .fondo2{
+            background: rgb(255,255,255); /* Old browsers */
+            background: -moz-linear-gradient(top,  rgba(255,255,255,1) 1%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(229,229,229,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(255,255,255,1) 1%,rgba(229,229,229,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+        }
+        
+        .fondo3{
+            background: rgb(119,184,0); /* Old browsers */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3YjgwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI4JSIgc3RvcC1jb2xvcj0iIzc3YjgwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iIzU4ODcwMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+            background: -moz-linear-gradient(top,  rgba(119,184,0,1) 0%, rgba(119,184,0,1) 28%, rgba(88,135,3,1) 98%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(119,184,0,1)), color-stop(28%,rgba(119,184,0,1)), color-stop(98%,rgba(88,135,3,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(119,184,0,1) 0%,rgba(119,184,0,1) 28%,rgba(88,135,3,1) 98%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(119,184,0,1) 0%,rgba(119,184,0,1) 28%,rgba(88,135,3,1) 98%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(119,184,0,1) 0%,rgba(119,184,0,1) 28%,rgba(88,135,3,1) 98%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(119,184,0,1) 0%,rgba(119,184,0,1) 28%,rgba(88,135,3,1) 98%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77b800', endColorstr='#588703',GradientType=0 ); /* IE6-8 */
+
+
+            border: 2px solid #ffffff;
+
+        }
+        
+        .fondo4{
+            background: rgb(73,135,50); /* Old browsers */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5ODczMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNTYxMjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-linear-gradient(top,  rgba(73,135,50,1) 0%, rgba(37,97,33,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(73,135,50,1)), color-stop(100%,rgba(37,97,33,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(73,135,50,1) 0%,rgba(37,97,33,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(73,135,50,1) 0%,rgba(37,97,33,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(73,135,50,1) 0%,rgba(37,97,33,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(73,135,50,1) 0%,rgba(37,97,33,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#498732', endColorstr='#256121',GradientType=0 ); /* IE6-8 */
+
+        }
+        
+        .fondo5{
+            background: rgb(69,72,77); /* Old browsers */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1NDg0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+
+        }
+        
+        .efectocss{
+            -webkit-transition-duration: .3s;
+            -moz-transition-duration: .3s;
+            -o-transition-duration: .3s;
+            -ms-transition-duration: .3s;
+            transition-duration: .3s;
+        }
+        
+        
+    
+
+h1{
+    font-family: "SoberanaTitular";
+    text-transform: uppercase;
+    color: #497f43;
+    font-size:30px;
+    font-weight:normal;
+    padding:5px 0 5px 0;
+    margin:0px;
+    clear:both;
+}
+
+
+h2{
+    font-family: "SoberanaTitular";
+    font-size: 18px;
+    text-transform: uppercase;    
+    color:#BA2025;
+    font-weight:normal;
+    clear:both;
+}
+
+h3{
+    font-family: "SoberanaTitular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#BA2025;
+    clear:both;
+	font-weight:normal;
+}
+h4{
+    color:#3c1f0a;
+    font-size:15px;
+    font-weight:bold;
+    padding:0px 0 0px 0;
+    margin:0px;
+    clear:both;
+}
+ 
+h4 a{
+    color:#A5273f;
+    font-family: "SoberanaTitular";
+    font-size:15px; 
+    padding:0px 0 0px 0;
+    margin:0px;
+    clear:both;
+}
+
+h5{
+    color:#343434;
+    font-size:13px;
+    padding:0px 0 0px 0;
+    margin:0px;
+    clear:both;
+    font-weight:normal;
+}
+
+
+p{
+    padding:5px 0 5px 0;
+    margin:0px;
+    text-align:justify;
+    line-height:20px;
+    
+}
+
+a.link, a{
+    color: #A5273F;
+    
+    text-decoration: none;
+}
+a.link:hover, a:hover{
+    text-decoration: underline;
+    color: #000000; 
+}
